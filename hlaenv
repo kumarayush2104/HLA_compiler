@@ -1,0 +1,7 @@
+## Script for setting up hla env, always run this before running hla
+## By kumarayush2104@github.com
+
+
+export hlainc=/usr/local/bin/include
+export hlalib=/usr/local/bin/hlalib
+export hlatmp=/tmp

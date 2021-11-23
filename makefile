@@ -1,3 +1,12 @@
+## Personal Setup by kumarayush2104@github.com
+
+all:
+	sudo rm -rfv /usr/hla/
+	sudo cp -rav hl* /usr/local/bin/
+	sudo cp -rav include /usr/local/bin
+	sudo cp -rav delete /usr/local/bin
+
+## ending the setup
 
 makeHLA:
 	rm -f -R /usr/hla/hlalibsrc/*
